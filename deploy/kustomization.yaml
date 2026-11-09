@@ -11,4 +11,4 @@ resources:
 images:
   - name: app
     newName: ghcr.io/aaronallsop/caiv-radar
-    newTag: 700efbf
+    newTag: 79553c2
