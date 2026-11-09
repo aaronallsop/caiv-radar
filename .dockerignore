@@ -1,8 +1,13 @@
-# Kept out of the image build context.
-.git
-**/node_modules
-**/*kubeconfig*
+# Kept out of the image build context: everything except the three folders the image needs.
+*
+!ftrt
+!data
+!hosted
+**/__pycache__
+**/*.pyc
+# Never in the image, even inside those folders.
 **/.env
 **/.env.*
+**/*kubeconfig*
 **/*.pem
 **/*.key
